@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="adf58843-54f0-48c4-b8d1-9f505c5da331" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files_rest/BillyTheTree_Jewelry_Watches-Billythetree_com_Product_Catalog.tsv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/NuGet.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/images/SakeBottle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/images/psake.pdn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/images/psake.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Import_to_database_general.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrapper.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CJ_Categories.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Design_document.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HotCatToID.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SQL Table Creates.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories_not_recognized.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_reading/scan_file_to_dict.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_reading/scan_file_to_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_reading/unit_tests/test_data_reading.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_transfer_objects/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_transfer_objects/data_transfer_objects.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_verification/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_verification/file_exemption_filter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_verification/product_filter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_verification/unit_tests/test_data_verification.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database_input_output/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database_input_output/data_retrieval_functions/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database_input_output/data_retrieval_functions/data_retrieval.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database_input_output/data_retrieval_functions/unit_tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database_input_output/data_retrieval_functions/unit_tests/test_data_retrieval_functions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database_input_output/data_sending_functions/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database_input_output/data_sending_functions/data_sending.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database_input_output/data_sending_functions/mogrify_functions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database_input_output/unit_testing_database/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database_input_output/unit_testing_database/database_create_statements.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database_input_output/unit_testing_database/database_sequence_creates.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database_input_output/unit_testing_database/test_data_retrieval_functions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database_input_output/unit_testing_database/test_data_sending_functions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/default.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files_rest/Jacob_Time-Jacobtime_com_Product_Catalog.tsv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files_rest/Princeton_Watches-Princeton_Watches_Product_Catalog.tsv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files_to_read/Authentic_Watches-Authentic_Watches_Product_Catalog.tsv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files_with_missing_categories.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logfile.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mapping_from_header.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parsing_functions/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parsing_functions/delimited_files_parsing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/NuGetPackageBuilder.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/access-functions-in-another-file.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/build-script-resilience.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/conditional-task.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/cruise-control.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/debug-script.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/dot-net-solution.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/getting-help.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/how-does-psake-work.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/how-to-fail-a-build.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/hudson.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/logging-errors.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/nested-build.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/pass-parameters.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/print-psake-task-name.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/property-overrides.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/retry-rules.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/run-psake.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/structure-of-a-psake-build-script.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/team-city.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/variable-referencing.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/what-can-i-use-psake-for.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/where-can-i-get-psake.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/docs/who-is-using-psake.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/en-US/psake.psm1-help.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/checkvariables.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/continueonerror.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/default.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/formattaskname_scriptblock.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/formattaskname_string.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/msbuild40.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/nested.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/nested/nested1.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/nested/nested2.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/paralleltasks.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/parameters.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/passingParametersString/build.Release.Version.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/passingParametersString/parameters.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/preandpostaction.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/preandpostcondition.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/properties.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/requiredvariables.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/examples/tasksetupandteardown.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/images/SakeBottleLicense.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/mkdocs.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/nuget/psake.nuspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/nuget/tools/chocolateyInstall.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/nuget/tools/init.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/psake-buildTester.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/psake-config.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/psake.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/psake.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/psake.psd1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/psake.psm1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/Get-PSakeScriptTasks_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/bad_PreAndPostActions_should_fail.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/calling_invoke-task_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/circular_dependency_in_tasks_should_fail.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/default_task_with_action_should_fail.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/detailedDocs_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/docs_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/dotNet4.5.1_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/dotNet4.6.1_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/dotNet4.6_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/dotNet4_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/duplicate_alias_should_fail.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/duplicate_tasks_should_fail.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/executing_module_function_that_depends_on_another_module_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/explicitly_specified_32bit_build_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/failing_postcondition_should_fail.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/missing_task_should_fail.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/modules/ModuleA.psm1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/modules/ModuleB.psm1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/modules/default.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/modules/psake-config.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/multiline_blocks_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/nested/always_fail.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/nested/docs.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/nested/nested1.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/nested/nested2.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/nested/whatifpreference.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/nested_builds_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/nested_builds_that_fail_should_fail.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/nonzero_lastexitcode_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/running_aspnet_compiler_under_dotNet35_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/simple_properties_and_tasks_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/task_with_alias_and_dependencies_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/task_with_alias_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/tasksetup_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/using_PreAndPostActions_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/using_exec_and_nonzero_lastexitcode_should_fail.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/using_framework_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/using_initialization_block_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/using_msbuild_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/using_parameters_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/using_postcondition_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/using_precondition_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/using_properties_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/using_required_when_not_set_should_fail.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/using_required_when_set_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/whatif_preference_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/specs/writing_psake_variables_should_pass.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/tabexpansion/PsakeTabExpansion.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psake-4.6.0/tabexpansion/Readme.PsakeTab.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_file_list.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text_formatting_functions/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text_formatting_functions/text_formatting_functions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data_retrieval_functions/data_retrieval.py" afterPath="$PROJECT_DIR$/data_reading/__init__.py" />
+    </list>
+    <ignored path="Import_to_database_general.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Import_to_database_general" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-693">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delimited_files_parsing.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parsing_functions/delimited_files_parsing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1499">
+              <caret line="90" column="7" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/data_sending_functions/insert_store_into_stores.py" />
+        <option value="$PROJECT_DIR$/data_reading/scan_file_to_list.py" />
+        <option value="$PROJECT_DIR$/data_reading/__init__.py" />
+        <option value="$PROJECT_DIR$/data_retrieval_functions/__init__.py" />
+        <option value="$PROJECT_DIR$/data_sending_functions/__init__.py" />
+        <option value="$PROJECT_DIR$/data_verification/data_filter.py" />
+        <option value="$PROJECT_DIR$/text_assembling_functions/assemble_hierarchy_string.py" />
+        <option value="$PROJECT_DIR$/text_assembling_functions/text_assembling_functions.py" />
+        <option value="$PROJECT_DIR$/text_formatting_functions.py" />
+        <option value="$PROJECT_DIR$/data_verification/product_filter.py" />
+        <option value="$PROJECT_DIR$/data_transfer_objects/data_transfer_objects.py" />
+        <option value="$PROJECT_DIR$/data_sending_functions/mogrify_functions.py" />
+        <option value="$PROJECT_DIR$/data_sending_functions/data_sending.py" />
+        <option value="$PROJECT_DIR$/unit_tests/data_retrieval_functions.py" />
+        <option value="$PROJECT_DIR$/unit_tests/test_data_retrieval_functions.py" />
+        <option value="$PROJECT_DIR$/unit_tests/data_reading_tests.py" />
+        <option value="$PROJECT_DIR$/data_retrieval_functions/unit_tests/test_data_retrieval_functions.py" />
+        <option value="$PROJECT_DIR$/data_retrieval_functions/data_retrieval.py" />
+        <option value="$PROJECT_DIR$/data_reading/scan_file_to_dict.py" />
+        <option value="$PROJECT_DIR$/data_reading/unit_tests/test_data_reading.py" />
+        <option value="$PROJECT_DIR$/data_verification/unit_tests/test_data_verification.py" />
+        <option value="$PROJECT_DIR$/database_create_statements.py" />
+        <option value="$PROJECT_DIR$/database_sequence_creates.py" />
+        <option value="$PROJECT_DIR$/database_test_suit.py" />
+        <option value="$PROJECT_DIR$/unit_testing_database/database_test_suit.py" />
+        <option value="$PROJECT_DIR$/unit_testing_database/test_data_retrieval_functions.py" />
+        <option value="$PROJECT_DIR$/unit_testing_database/test_data_sending_functions.py" />
+        <option value="$PROJECT_DIR$/database_input_output/data_retrieval_functions/unit_tests/test_data_retrieval_functions.py" />
+        <option value="$PROJECT_DIR$/parsing_functions/__init__.py" />
+        <option value="$PROJECT_DIR$/psake_build.ps1" />
+        <option value="$PROJECT_DIR$/default.ps1" />
+        <option value="$PROJECT_DIR$/database_input_output/unit_testing_database/database_test_suit.py" />
+        <option value="$PROJECT_DIR$/database_input_output/unit_testing_database/test_data_retrieval_functions.py" />
+        <option value="$PROJECT_DIR$/database_input_output/unit_testing_database/test_data_sending_functions.py" />
+        <option value="$PROJECT_DIR$/mapping_from_header.py" />
+        <option value="$PROJECT_DIR$/database_input_output/data_retrieval_functions/data_retrieval.py" />
+        <option value="$PROJECT_DIR$/data_verification/file_exemption_filter.py" />
+        <option value="$PROJECT_DIR$/database_input_output/data_sending_functions/data_sending.py" />
+        <option value="$PROJECT_DIR$/text_formatting_functions/text_formatting_functions.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/database_input_output/data_sending_functions/mogrify_functions.py" />
+        <option value="$PROJECT_DIR$/parsing_functions/delimited_files_parsing.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="3026" />
+    <option name="height" value="1946" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="text_formatting_functions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parsing_functions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database_input_output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database_input_output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit_testing_database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database_input_output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_sending_functions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database_input_output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_retrieval_functions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_verification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_transfer_objects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_reading" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Import_to_database_general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_reading" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit_tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../commissionjunction" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Victor Bodeby\Documents\Import_to_database_general\database_input_output" />
+      <recent name="C:\Users\Victor Bodeby\Documents\Import_to_database_general\unit_testing_database" />
+      <recent name="C:\Users\Victor Bodeby\Documents\Import_to_database_general\data_retrieval_functions\unit_tests" />
+      <recent name="C:\Users\Victor Bodeby\Documents\Import_to_database_general" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Victor Bodeby\Documents\Import_to_database_general\text_formatting_functions" />
+      <recent name="C:\Users\Victor Bodeby\Documents\Import_to_database_general\data_transfer_objects" />
+      <recent name="C:\Users\Victor Bodeby\Documents\Import_to_database_general\data_verification" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in test_data_retrieval_functions">
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Import_to_database_general" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in unit_tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Import_to_database_general" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unit_tests/test_data_retrieval_functions.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$/unit_tests" />
+      <option name="TEST_TYPE" value="TEST_FOLDER" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Import_to_database_general" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Import_to_database_general" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Import_to_database_general" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Import_to_database_general" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Import_to_database_general" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Import_to_database_general" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Import_to_database_general" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_data_retrieval_functions" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_retrieval_functions/unit_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Import_to_database_general" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_retrieval_functions/unit_tests/test_data_retrieval_functions.py" />
+      <option name="CLASS_NAME" value="Test_Data" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$/data_retrieval_functions/unit_tests" />
+      <option name="TEST_TYPE" value="TEST_FOLDER" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_data_retrieval_functions" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in unit_tests" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in unit_tests" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="adf58843-54f0-48c4-b8d1-9f505c5da331" name="Default" comment="" />
+      <created>1468306513441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1468306513441</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_data_retrieval_functions - 2016.07.13 at 10h 01m 56s.xml">
+      <configuration name="Unittests in test_data_retrieval_functions" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_data_retrieval_functions - 2016.07.13 at 10h 02m 57s.xml">
+      <configuration name="Unittests in test_data_retrieval_functions" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_data_retrieval_functions - 2016.07.13 at 10h 05m 29s.xml">
+      <configuration name="Unittests in test_data_retrieval_functions" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_data_retrieval_functions - 2016.07.13 at 10h 12m 44s.xml">
+      <configuration name="Unittests in test_data_retrieval_functions" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_data_retrieval_functions - 2016.07.14 at 10h 04m 43s.xml">
+      <configuration name="Unittests in test_data_retrieval_functions" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unit_tests - 2016.07.13 at 10h 14m 43s.xml">
+      <configuration name="Unittests in unit_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unit_tests - 2016.07.13 at 10h 15m 41s.xml">
+      <configuration name="Unittests in unit_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unit_tests - 2016.07.13 at 10h 25m 56s.xml">
+      <configuration name="Unittests in unit_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unit_tests - 2016.07.13 at 10h 33m 34s.xml">
+      <configuration name="Unittests in unit_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_unit_tests - 2016.07.13 at 10h 34m 14s.xml">
+      <configuration name="Unittests in unit_tests" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24966666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965758" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32675567" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/database_input_output/unit_testing_database/database_test_suit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_input_output/unit_testing_database/test_data_retrieval_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_input_output/unit_testing_database/test_data_sending_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_input_output/unit_testing_database/database_create_statements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_input_output/unit_testing_database/database_sequence_creates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_reading/scan_file_to_dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_reading/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_input_output/unit_testing_database/database_sequence_creates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_functions/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_reading/scan_file_to_dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_reading/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/psake_build.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/Scripts/activate.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_input_output/unit_testing_database/database_test_suit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_reading/unit_tests/test_data_reading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_input_output/unit_testing_database/test_data_retrieval_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_from_header.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_input_output/unit_testing_database/database_create_statements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_input_output/unit_testing_database/test_data_sending_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_verification/file_exemption_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_transfer_objects/data_transfer_objects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_input_output/data_sending_functions/mogrify_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_input_output/data_sending_functions/data_sending.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="881">
+          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_input_output/data_retrieval_functions/data_retrieval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_formatting_functions/text_formatting_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-693">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsing_functions/delimited_files_parsing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1499">
+          <caret line="90" column="7" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
