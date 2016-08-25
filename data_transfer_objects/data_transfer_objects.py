@@ -9,8 +9,10 @@ class ProductDTO(object):
         self.product_code = kwargs.get("product_code")
         self.specification = kwargs.get("specification")
         self.category = kwargs.get("category")
+        self.sub_category = kwargs.get("sub_category")
         self.category_level_2 = kwargs.get("category_level_2")
         self.category_id = kwargs.get("category_id")
+        self.category_hierarchy = kwargs.get("category_hierarchy")
         self.shipping_info = kwargs.get("shipping_info")
         self.price_range = kwargs.get("price_range")
         self.post_id = kwargs.get("post_id")
@@ -27,6 +29,8 @@ class ProductDTO(object):
         self.created_at = datetime.datetime.now()
         self.updated_at = kwargs.get("updated_at")
         self.product_file = kwargs.get("product_file")
+        self.color_id = kwargs.get("color_id")
+        self.size = kwargs.get("size")
         self.variant = variant
 
         def __getattribute__(self, item):

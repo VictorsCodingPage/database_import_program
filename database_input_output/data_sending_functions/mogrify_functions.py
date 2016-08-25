@@ -6,8 +6,7 @@ text_formatting = imp.load_source('text_formatting_functions', './text_formattin
 def mogrify_product_data(product_list, cursor):
     prod_data_list = [(product.name, product.brand, product.product_code, product.created_at,
                        product.updated_at, product.description, product.price_range,
-                       text_formatting.hierarchy_formatter(product.category, ",", ">"),
-                       product.shipping_info, product.vendor_url, product.product_file) for product in product_list]
+                       product.category_hierarchy, product.shipping_info, product.vendor_url, product.product_file) for product in product_list]
     SQL = "INSERT INTO products (name, brand, product_code, created_at, updated_at,"\
         " description, price_range, category_hierarchy, shipping_info, vendor_url, product_files)"\
         " VALUES"

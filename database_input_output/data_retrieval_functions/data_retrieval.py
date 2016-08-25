@@ -13,7 +13,7 @@ def get_store_name_list(cursor):
 
 
 def get_store_id_from_stores(vendor_name, cursor):
-    SQL = "SELECT id FROM stores WHERE name = '{}'".format(vendor_name.replace("'", "\'"))
+    SQL = "SELECT id FROM stores WHERE name = '{}'".format(vendor_name.replace("\'", "''"))
     cursor.execute(SQL)
     store_id_as_list = cursor.fetchone()
     if store_id_as_list == None:

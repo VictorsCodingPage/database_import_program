@@ -9,34 +9,68 @@ def main():
     from database_input_output.data_sending_functions import data_sending
     from database_input_output.data_retrieval_functions import data_retrieval
     import psycopg2
-    from parsing_functions.delimited_files_parsing import delimited_files_parsing_general
+    from parsing_functions.delimited_files_parsing import delimited_files_parsing_general, json_parsing, xml_parsing
     from mapping_from_header import map_from_header
     from data_reading.scan_file_to_dict import scan_file_to_dict
 
-    # TEST RUN OR REAL RUN
-    test = True
+    # BOOLEAN FLAGS
+    test = False
+    json_input = False
+    xml_input = False
+    mr_porter = False
 
     # FILE_PATH None = DEFAULT PATH
-    file_path = "files_to_read"
+    if json_input == True:
+        file_path = "files_json"
+    elif mr_porter == True:
+        file_path = "LS_MrPorter"
+    elif xml_input  == True:
+        file_path = "Watches_reimport"
+    else:
+        file_path = "VC_import"
+
 
     # FILES TO OPEN
     exemption_file = "logfile.txt"
-    dict_level_2_file= "CJ_Categories.csv"
-    dict_level_1_file= "HotCatToID.csv"
+    if xml_input == True:
+        dict_level_2_file= "LinkShare_Categories_mapped.csv"
+        index_of_key = 3
+        index_of_value = 2
+        index_of_value_2 = 1
+        level_1_index_key = 1
+        level_1_index_val = 2
+    elif mr_porter == True:
+        dict_level_2_file = "mrporter_categories_mapped.csv"
+        index_of_key = 1
+        index_of_value = 2
+        level_1_index_key = 0
+        level_1_index_val = 0
+    else:
+        dict_level_2_file= "CJ_Categories_mapped_new.csv"
+        index_of_key = 2
+        index_of_value = 1
+        index_of_value_2 = 0
+        level_1_index_key = 1
+        level_1_index_val = 0
+    # dict_level_1_file= "HotCatToID.csv"
+    dict_level_1_file = "VC_mapping.csv"
 
     # DELIMITERS
-    parse_file_delimiter = "\t"
+    delimiter_file_to_parse = "\t"
     mapping_delimiter = "\t"
     exemptions_delimiter = "\t"
     dict_delimiter = "\t"
 
     # CONNECTION STRING
-    connection_string = ""
+    host="example_host"
+    dbname="example_dbname"
+    user="example_user"
+    password="exaple_password"
+    port="example_port"
 
-    if test:
-        connection_string = "host=localhost dbname=CJtestdb user=postgres password=1234 port=5432"
-    else:
-        connection_string = "host=hotspottingdevelopment2.cd3jzpbeunmh.ap-southeast-1.rds.amazonaws.com dbname=hotspotting_production user=hotspotting password=kae5eesh5FahPh0e port=5432"
+    connection_string = "host={} dbname={} user={} password={} port={}".format(host, dbname, user, password, port)
+
+    print "Destination database: ", connection_string
 
     # READ ALL FILE NAMES TO MEMORY
     if file_path == None:
@@ -47,21 +81,37 @@ def main():
     onlyfiles = compare_exempt_files_to_all_files(filesInPath, "\t", exemption_file)
     onlyfiles_length = len(onlyfiles)
 
-    #CREATE DICT FILTERS
-    level_2_cat_dict = scan_file_to_dict(dict_level_2_file, 2, 1, dict_delimiter)
-    level_1_cat_dict = scan_file_to_dict(dict_level_1_file, 1, 0, dict_delimiter)
+    # CREATE DICT FILTERS
+    if mr_porter == False or xml_input == False:
+        category_to_gender_dict = scan_file_to_dict(dict_level_2_file, index_of_key, index_of_value_2, dict_delimiter)
+    level_2_cat_dict = scan_file_to_dict(dict_level_2_file, index_of_key, index_of_value, dict_delimiter)
+    level_1_cat_dict = scan_file_to_dict(dict_level_1_file, level_1_index_key, level_1_index_val, dict_delimiter)
+    color_dict = scan_file_to_dict("Color_mapping.txt", 2, 0, ";")
+
+    print level_1_cat_dict
+
+    level_1_cat_dict_male = scan_file_to_dict("HotCatToID_Male.csv", 1, 0, dict_delimiter)
+    level_1_cat_dict_female = scan_file_to_dict("HotCatToID_Female.csv", 1, 0, dict_delimiter)
 
     # ITERATE THROUGH THE LIST OF FILE NAMES
     file_counter = 0
+    product_counter = 0
     for file in onlyfiles:
         print "Parsing {}".format(file)
         complete_file_path = file_path+"/"+file
 
         # PARSE FUNCTION(S)
-        data_mapping_list = map_from_header(complete_file_path, mapping_delimiter)
-        product_list =  delimited_files_parsing_general(complete_file_path, parse_file_delimiter, data_mapping_list, level_1_cat_dict, level_2_cat_dict)
+        if json_input == True:
+            product_list = json_parsing(complete_file_path, level_1_cat_dict, level_2_cat_dict, category_to_gender_dict)
+        elif xml_input == True or mr_porter == True:
+            product_list = xml_parsing(complete_file_path, level_1_cat_dict, level_2_cat_dict, category_to_gender_dict)
+        else :
+            data_mapping_list = map_from_header(complete_file_path, mapping_delimiter)
+            product_list = delimited_files_parsing_general(complete_file_path, delimiter_file_to_parse, data_mapping_list, level_1_cat_dict, level_2_cat_dict, color_dict)
 
         if len(product_list) >= 1:
+
+            print len(product_list)
 
             # SET UP CONNECTION
             dbconn = psycopg2.connect(connection_string)
@@ -74,17 +124,21 @@ def main():
             # RETRIEVE STORE_ID FROM SERVER
             vendor = product_list[0].vendor
             store_id = data_retrieval.get_store_id_from_stores(vendor, cursor)
-            if not store_id:
+            if store_id == -1:
                 data_sending.insert_store(cursor, vendor, store_name_list, store_bool_list)
+                store_id = data_retrieval.get_store_id_from_stores(vendor, cursor)
 
             # SEND DATA TO SERVER
-            data_sending.export_data_to_database(product_list, store_id, cursor)
+            product_counter += data_sending.export_data_to_database(product_list, store_id, cursor)
+
+            # DATA UPDATE
+            # data_sending.update_data_in_database(product_list, store_id, cursor)
 
             dbconn.commit()
             dbconn.close()
 
         file_counter += 1
-        print "Finished sending {} out of {} files".format(file_counter, onlyfiles_length)
+        print "Finished sending {} products, contained in \n{} out of {} files".format(product_counter, file_counter, onlyfiles_length)
         update_exempt_files_file(exemption_file, exemptions_delimiter, file)
 
 
